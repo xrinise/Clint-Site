@@ -8,9 +8,9 @@
 
         <div class="row">
         <ul class="main-nav">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="6-1/index.html">6-1</a></li>
-            <li><a href="6-2/index.html">6-2</a></li>
+            <li><a href="../../index.php">Home</a></li>
+            <li><a href="6-1/index.php">6-1</a></li>
+            <li><a href="6-2/index.php">6-2</a></li>
 
         </ul>
         </div>
