@@ -1,0 +1,162 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.video
+{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+@media (min-aspect-ratio: 16/9)  {
+  .video {
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9)  {
+  .video {
+    width: auto;
+    height: 100%;
+    }
+}
+
+header
+{
+
+    background: rgba(0, 0, 0, 0);
+    height: 100vh;
+}
+
+.logo
+{
+  margin: 40px 100px;
+  height: 120px;
+}
+.steam
+{
+  margin: 10px 5px;
+  height: 60px;
+}
+.ps4
+{
+  margin: 10px 5px;
+  height: 60px;
+}
+.xbox
+{
+  margin: 10px 5px;
+  height: 60px;
+}
+.capcom
+{
+  height: 20px;
+}
+
+
+
+
+.menu
+{
+  float: right;
+  list-style: none;
+  margin: 30px;
+}
+
+.menu li
+{
+  display: inline-block;
+  margin 10px 5px;
+}
+li.sl
+{
+  margin: 10px;
+}
+
+.menu li a
+{
+  text-decoration: none;
+  color: grey;
+  padding:5px 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  border: 1px solid white;
+}
+
+.menu li a:hover
+{
+  background: black;
+  transition: .4s;
+  color: yellow;
+
+}
+.msg
+{
+  margin-left: 400px;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  top: 600px;
+}
+
+.btn
+{
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  margin: 7px 28px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.btn1
+{
+  background: black;
+  color: white;
+  padding:20px 20px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0);
+}
+.btn2
+{
+  background: black;
+  color: white;
+  padding:20px 20px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0);
+}
+.btn3
+{
+  background: black;
+  color: white;
+  padding:20px 20px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0);
+}
+.btn:hover
+{
+  background: black;
+  transition: .4s;
+  color: yellow;
+}
+.footer {
+  margin-top: 641px;
+  text-align: center;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
