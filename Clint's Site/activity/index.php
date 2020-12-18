@@ -10,7 +10,7 @@
         <ul class="main-nav">
             <li><a href="../index.php">Home</a></li>
             <li><a href="">Mod1</a></li>
-            <li><a href="mod2/index.html">Mod2</a></li>
+            <li><a href="mod2/index.php">Mod2</a></li>
             <li><a href="">Mod3</a></li>
             <li><a href="https://codepen.io/xrinise/pen/jOqvgLG">Mod4</a></li>
             <li><a href="mod5/index.php">Mod5</a></li>
